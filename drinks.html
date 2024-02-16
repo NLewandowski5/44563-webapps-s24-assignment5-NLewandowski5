@@ -14,6 +14,23 @@
 </head>
 <body>
 
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="drinks.html">A Few Drinks</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="basic.html">Basic</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="advanced.html">Advanced</a>
+        </li>
+      </ul>    
+    </div>
+  </button>
+  </nav>
+
   <h1>Have a cup with Nolan Lewandowski</h1>
 
   <div class="container">
@@ -119,6 +136,35 @@
     </div>
 </div>
 
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      Dropdown
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="basic.html">Basic.html</a></li>
+      <li><a class="dropdown-item" href="advanced.html">Advanced.html</a></li>
+    </ul>
+  </div>
+</div>
+
+<h2>Proto Form</h2>
+  
+  <form>
+    <div class="form-group">
+      <label for="email">Email address</label>
+      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="drink">Drink</label>
+      <input type="text" class="form-control" id="drink" placeholder="Enter your drink">
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="newsletter">
+      <label class="form-check-label" for="newsletter">Sign up for newsletter?</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
 
 </body>
 </html>
